@@ -36,4 +36,10 @@
 		include ('template/login.php');
 
 	}
+
+
+
+
+
+	
 	
