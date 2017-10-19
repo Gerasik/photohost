@@ -1,0 +1,55 @@
+body{
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#register{
+	text-align: center;
+	border: 1px solid #b1b1b1;
+	padding: 45px;
+	box-shadow: 0 0 34px -5px #757575;
+}
+
+#register h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#register input{
+	margin: 5px 0;
+	height: 30px;
+	width: 230px;
+}
+
+#register input[type="submit"]{
+	width: inherit;
+	background: green;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 0 15px;
+	margin: 0;
+	height: 35px;
+	border-radius: 5px;
+	float: right;
+}
+
+#register input:valid{
+	border: 1px solid green;
+}
+
+#register input:focus:invalid{
+	border: 1px solid red;
+}
+.pattern{
+	margin: 0;
+	text-align: left;
+	width: 230px;
+}
+.error{
+	margin: 0;
+	color: red;
+}
